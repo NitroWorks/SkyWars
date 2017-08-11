@@ -1,0 +1,23 @@
+name: SkyWars
+main: Ema_001\SkyWars\SkyWars
+author: Ema_001
+version: 1.0.0 ITALIANO
+api: 
+- 3.0.0-ALPHA7
+
+commands:
+    sw:
+        usage: /sw <leave-make>
+        description: Comandi Skywars
+    lang:
+        usage: /lang <it>
+        description: SkyWars in italiano
+    ranksw:
+        usage: /rank
+        description: Comandi SkyRank
+    swstart:
+        usage: /swstart
+        description: Forzare l'inizio di una partita SkyWars
+    money:
+        usage: /money
+        description: Impostare la vincita
