@@ -3,7 +3,7 @@ main: Ema_001\SkyWars\SkyWars
 author: Ema_001
 version: 1.0.0 ITALIANO
 api: 
-- 3.0.0-ALPHA7
+- 3.0.0-ALPHA12
 
 commands:
     sw:
