@@ -76,7 +76,7 @@ class SkyWars extends PluginBase implements Listener {
 		if($lang->get("it")==null)
 		{
 			$messages = array();
-			$messages["kill"] = "è stato ucciso da";
+			$messages["kill"] = "he was killed by";
 			$messages["cannotjoin"] = "Non puoi entrare.";
 			$messages["seconds"] = "secondi per iniziare";
 			$messages["won"] = "§fVince gli SkyWars nell'arena: §b";
@@ -304,7 +304,7 @@ class SkyWars extends PluginBase implements Listener {
 					}
 					else
 					{
-					 $player->sendMessage($this->prefix . "Comandi SkyWars!");
+					 $player->sendMessage($this->prefix . "SkyWar Commands");
                                          $player->sendMessage($this->prefix . "/sw make [world]: Crea un nuovo SkyWars in un nuovo mondo!");
                                          $player->sendMessage($this->prefix . "/ranksw [rank] [player]: ranks(so many)!");
                                          $player->sendMessage($this->prefix . "/swstart: incomincia la partita");
